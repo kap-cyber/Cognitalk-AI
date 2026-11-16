@@ -25,7 +25,7 @@ prompt = ChatPromptTemplate.from_messages(
 )
 
 chain = prompt | llm
-st.title("AI Chatbot")
+st.title("Cognitalk AI")
 
 
 # New Chat button
